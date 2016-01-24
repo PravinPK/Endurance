@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0710D31C538F6900DA33A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710D21C538F6900DA33A2 /* main.m */; };
+		3D0710D61C538F6900DA33A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710D51C538F6900DA33A2 /* AppDelegate.m */; };
+		3D0710D91C538F6900DA33A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710D81C538F6900DA33A2 /* ViewController.m */; };
+		3D0710DC1C538F6900DA33A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710DA1C538F6900DA33A2 /* Main.storyboard */; };
+		3D0710DE1C538F6900DA33A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710DD1C538F6900DA33A2 /* Assets.xcassets */; };
+		3D0710E11C538F6900DA33A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710DF1C538F6900DA33A2 /* LaunchScreen.storyboard */; };
+		3D0710EA1C53935A00DA33A2 /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0710E91C53935A00DA33A2 /* MyoKit.framework */; };
+		3D0710F21C539C0600DA33A2 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710EB1C539C0600DA33A2 /* CommonUtils.m */; };
+		3D0710F31C539C0600DA33A2 /* NSString+baseEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710EF1C539C0600DA33A2 /* NSString+baseEncoding.m */; };
+		3D0710F41C539C0600DA33A2 /* UIColor+ThemeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0710F11C539C0600DA33A2 /* UIColor+ThemeColors.m */; };
+		3D0710FD1C539DD000DA33A2 /* fontawesome-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710F71C539DD000DA33A2 /* fontawesome-webfont.eot */; };
+		3D0710FE1C539DD000DA33A2 /* fontawesome-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710F81C539DD000DA33A2 /* fontawesome-webfont.svg */; };
+		3D0710FF1C539DD000DA33A2 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710F91C539DD000DA33A2 /* fontawesome-webfont.ttf */; };
+		3D0711001C539DD000DA33A2 /* fontawesome-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710FA1C539DD000DA33A2 /* fontawesome-webfont.woff */; };
+		3D0711011C539DD000DA33A2 /* fontawesome-webfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710FB1C539DD000DA33A2 /* fontawesome-webfont.woff2 */; };
+		3D0711021C539DD000DA33A2 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D0710FC1C539DD000DA33A2 /* FontAwesome.otf */; };
+		3D07110A1C539E4000DA33A2 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711031C539E4000DA33A2 /* NSString+FontAwesome.m */; };
+		3D07110B1C539E4000DA33A2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711051C539E4000DA33A2 /* Reachability.m */; };
+		3D07110C1C539E4000DA33A2 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711071C539E4000DA33A2 /* UIFont+FontAwesome.m */; };
+		3D07110D1C539E4000DA33A2 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711091C539E4000DA33A2 /* UIImage+FontAwesome.m */; };
+		3D0711111C541D5000DA33A2 /* HealthSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711101C541D5000DA33A2 /* HealthSection.m */; };
+		3D0711151C5424A500DA33A2 /* Excercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0711141C5424A500DA33A2 /* Excercise.m */; };
+		3DE2CDA31C5439D70098110C /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE2CDA21C5439D70098110C /* ResultView.m */; };
+		3DE2CDA51C5439F40098110C /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDA41C5439F40098110C /* ResultView.xib */; };
+		3DE2CDA71C54CD670098110C /* QP7WI19WFG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDA61C54CD670098110C /* QP7WI19WFG.jpg */; };
+		3DE2CDAB1C54D8100098110C /* Dumbbells.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDA81C54D8100098110C /* Dumbbells.png */; };
+		3DE2CDAC1C54D8100098110C /* skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDA91C54D8100098110C /* skip.png */; };
+		3DE2CDAD1C54D8100098110C /* Squats.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDAA1C54D8100098110C /* Squats.png */; };
+		3DE2CDB01C54D8320098110C /* Pullups.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDAE1C54D8320098110C /* Pullups.png */; };
+		3DE2CDB11C54D8320098110C /* Pushups.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE2CDAF1C54D8320098110C /* Pushups.png */; };
+		528F4D386DA910EEB17A62A9 /* libPods-HackArizona.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E99C39D2E510A5288B94ED /* libPods-HackArizona.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D0710CE1C538F6900DA33A2 /* HackArizona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackArizona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0710D21C538F6900DA33A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D0710D41C538F6900DA33A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D0710D51C538F6900DA33A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D0710D71C538F6900DA33A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D0710D81C538F6900DA33A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D0710DB1C538F6900DA33A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0710DD1C538F6900DA33A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0710E01C538F6900DA33A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0710E21C538F6900DA33A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0710E91C53935A00DA33A2 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		3D0710EB1C539C0600DA33A2 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		3D0710EC1C539C0600DA33A2 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		3D0710ED1C539C0600DA33A2 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		3D0710EE1C539C0600DA33A2 /* NSString+baseEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+baseEncoding.h"; sourceTree = "<group>"; };
+		3D0710EF1C539C0600DA33A2 /* NSString+baseEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+baseEncoding.m"; sourceTree = "<group>"; };
+		3D0710F01C539C0600DA33A2 /* UIColor+ThemeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ThemeColors.h"; sourceTree = "<group>"; };
+		3D0710F11C539C0600DA33A2 /* UIColor+ThemeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ThemeColors.m"; sourceTree = "<group>"; };
+		3D0710F51C539C3C00DA33A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3D0710F71C539DD000DA33A2 /* fontawesome-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.eot"; sourceTree = "<group>"; };
+		3D0710F81C539DD000DA33A2 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
+		3D0710F91C539DD000DA33A2 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		3D0710FA1C539DD000DA33A2 /* fontawesome-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff"; sourceTree = "<group>"; };
+		3D0710FB1C539DD000DA33A2 /* fontawesome-webfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff2"; sourceTree = "<group>"; };
+		3D0710FC1C539DD000DA33A2 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		3D0711031C539E4000DA33A2 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		3D0711041C539E4000DA33A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D0711051C539E4000DA33A2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3D0711061C539E4000DA33A2 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		3D0711071C539E4000DA33A2 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		3D0711081C539E4000DA33A2 /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		3D0711091C539E4000DA33A2 /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		3D07110E1C53A06200DA33A2 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		3D07110F1C541D5000DA33A2 /* HealthSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthSection.h; sourceTree = "<group>"; };
+		3D0711101C541D5000DA33A2 /* HealthSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthSection.m; sourceTree = "<group>"; };
+		3D0711131C5424A500DA33A2 /* Excercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excercise.h; sourceTree = "<group>"; };
+		3D0711141C5424A500DA33A2 /* Excercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Excercise.m; sourceTree = "<group>"; };
+		3DE2CDA11C5439D70098110C /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
+		3DE2CDA21C5439D70098110C /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+		3DE2CDA41C5439F40098110C /* ResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
+		3DE2CDA61C54CD670098110C /* QP7WI19WFG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = QP7WI19WFG.jpg; path = ../QP7WI19WFG.jpg; sourceTree = "<group>"; };
+		3DE2CDA81C54D8100098110C /* Dumbbells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dumbbells.png; sourceTree = "<group>"; };
+		3DE2CDA91C54D8100098110C /* skip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skip.png; sourceTree = "<group>"; };
+		3DE2CDAA1C54D8100098110C /* Squats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squats.png; sourceTree = "<group>"; };
+		3DE2CDAE1C54D8320098110C /* Pullups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pullups.png; sourceTree = "<group>"; };
+		3DE2CDAF1C54D8320098110C /* Pushups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pushups.png; sourceTree = "<group>"; };
+		85E99C39D2E510A5288B94ED /* libPods-HackArizona.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackArizona.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4767DF49A77606193043698 /* Pods-HackArizona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackArizona.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackArizona/Pods-HackArizona.release.xcconfig"; sourceTree = "<group>"; };
+		FDEE4A15B97EFF408CC3A741 /* Pods-HackArizona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackArizona.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackArizona/Pods-HackArizona.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0710CB1C538F6900DA33A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528F4D386DA910EEB17A62A9 /* libPods-HackArizona.a in Frameworks */,
+				3D0710EA1C53935A00DA33A2 /* MyoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AE82BDFEDE94F41C335CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E99C39D2E510A5288B94ED /* libPods-HackArizona.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D0710C51C538F6900DA33A2 = {
+			isa = PBXGroup;
+			children = (
+				3D0710D01C538F6900DA33A2 /* HackArizona */,
+				3D0710CF1C538F6900DA33A2 /* Products */,
+				F53BBC67F335CA3B63B0B1B9 /* Pods */,
+				03AE82BDFEDE94F41C335CD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0710CF1C538F6900DA33A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0710CE1C538F6900DA33A2 /* HackArizona.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0710D01C538F6900DA33A2 /* HackArizona */ = {
+			isa = PBXGroup;
+			children = (
+				3DE2CDAE1C54D8320098110C /* Pullups.png */,
+				3DE2CDAF1C54D8320098110C /* Pushups.png */,
+				3DE2CDA81C54D8100098110C /* Dumbbells.png */,
+				3DE2CDA91C54D8100098110C /* skip.png */,
+				3DE2CDAA1C54D8100098110C /* Squats.png */,
+				3DE2CDA61C54CD670098110C /* QP7WI19WFG.jpg */,
+				3D0711121C54246200DA33A2 /* Health VIew */,
+				3D0710F61C539D9B00DA33A2 /* Utilites */,
+				3D0710E81C53934700DA33A2 /* Framework */,
+				3D0710D41C538F6900DA33A2 /* AppDelegate.h */,
+				3D0710D51C538F6900DA33A2 /* AppDelegate.m */,
+				3D0710DA1C538F6900DA33A2 /* Main.storyboard */,
+				3D0710DD1C538F6900DA33A2 /* Assets.xcassets */,
+				3D0710DF1C538F6900DA33A2 /* LaunchScreen.storyboard */,
+				3D0710E21C538F6900DA33A2 /* Info.plist */,
+				3D0710D11C538F6900DA33A2 /* Supporting Files */,
+				3D0710F51C539C3C00DA33A2 /* PrefixHeader.pch */,
+			);
+			path = HackArizona;
+			sourceTree = "<group>";
+		};
+		3D0710D11C538F6900DA33A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0710D21C538F6900DA33A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D0710E81C53934700DA33A2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3D0710E91C53935A00DA33A2 /* MyoKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		3D0710F61C539D9B00DA33A2 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				3D07110E1C53A06200DA33A2 /* NSString+FontAwesome.h */,
+				3D0711031C539E4000DA33A2 /* NSString+FontAwesome.m */,
+				3D0711041C539E4000DA33A2 /* Reachability.h */,
+				3D0711051C539E4000DA33A2 /* Reachability.m */,
+				3D0711061C539E4000DA33A2 /* UIFont+FontAwesome.h */,
+				3D0711071C539E4000DA33A2 /* UIFont+FontAwesome.m */,
+				3D0711081C539E4000DA33A2 /* UIImage+FontAwesome.h */,
+				3D0711091C539E4000DA33A2 /* UIImage+FontAwesome.m */,
+				3D0710F71C539DD000DA33A2 /* fontawesome-webfont.eot */,
+				3D0710F81C539DD000DA33A2 /* fontawesome-webfont.svg */,
+				3D0710F91C539DD000DA33A2 /* fontawesome-webfont.ttf */,
+				3D0710FA1C539DD000DA33A2 /* fontawesome-webfont.woff */,
+				3D0710FB1C539DD000DA33A2 /* fontawesome-webfont.woff2 */,
+				3D0710FC1C539DD000DA33A2 /* FontAwesome.otf */,
+				3D0710EB1C539C0600DA33A2 /* CommonUtils.m */,
+				3D0710EC1C539C0600DA33A2 /* Constant.h */,
+				3D0710ED1C539C0600DA33A2 /* CommonUtils.h */,
+				3D0710EE1C539C0600DA33A2 /* NSString+baseEncoding.h */,
+				3D0710EF1C539C0600DA33A2 /* NSString+baseEncoding.m */,
+				3D0710F01C539C0600DA33A2 /* UIColor+ThemeColors.h */,
+				3D0710F11C539C0600DA33A2 /* UIColor+ThemeColors.m */,
+			);
+			name = Utilites;
+			sourceTree = "<group>";
+		};
+		3D0711121C54246200DA33A2 /* Health VIew */ = {
+			isa = PBXGroup;
+			children = (
+				3D0710D71C538F6900DA33A2 /* ViewController.h */,
+				3D0710D81C538F6900DA33A2 /* ViewController.m */,
+				3D07110F1C541D5000DA33A2 /* HealthSection.h */,
+				3D0711101C541D5000DA33A2 /* HealthSection.m */,
+				3D0711131C5424A500DA33A2 /* Excercise.h */,
+				3D0711141C5424A500DA33A2 /* Excercise.m */,
+				3DE2CDA11C5439D70098110C /* ResultView.h */,
+				3DE2CDA21C5439D70098110C /* ResultView.m */,
+				3DE2CDA41C5439F40098110C /* ResultView.xib */,
+			);
+			name = "Health VIew";
+			sourceTree = "<group>";
+		};
+		F53BBC67F335CA3B63B0B1B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE4A15B97EFF408CC3A741 /* Pods-HackArizona.debug.xcconfig */,
+				A4767DF49A77606193043698 /* Pods-HackArizona.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0710CD1C538F6900DA33A2 /* HackArizona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0710E51C538F6900DA33A2 /* Build configuration list for PBXNativeTarget "HackArizona" */;
+			buildPhases = (
+				B3F9913C5B2511CE46B945CB /* Check Pods Manifest.lock */,
+				3D0710CA1C538F6900DA33A2 /* Sources */,
+				3D0710CB1C538F6900DA33A2 /* Frameworks */,
+				3D0710CC1C538F6900DA33A2 /* Resources */,
+				72FEA75B520C009BA1459DB8 /* Embed Pods Frameworks */,
+				C9FD578108E13FBEEB0A334A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackArizona;
+			productName = HackArizona;
+			productReference = 3D0710CE1C538F6900DA33A2 /* HackArizona.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0710C61C538F6900DA33A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MC;
+				TargetAttributes = {
+					3D0710CD1C538F6900DA33A2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D0710C91C538F6900DA33A2 /* Build configuration list for PBXProject "HackArizona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0710C51C538F6900DA33A2;
+			productRefGroup = 3D0710CF1C538F6900DA33A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0710CD1C538F6900DA33A2 /* HackArizona */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0710CC1C538F6900DA33A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0710E11C538F6900DA33A2 /* LaunchScreen.storyboard in Resources */,
+				3D0710FE1C539DD000DA33A2 /* fontawesome-webfont.svg in Resources */,
+				3DE2CDAD1C54D8100098110C /* Squats.png in Resources */,
+				3DE2CDAB1C54D8100098110C /* Dumbbells.png in Resources */,
+				3DE2CDA71C54CD670098110C /* QP7WI19WFG.jpg in Resources */,
+				3D0710DE1C538F6900DA33A2 /* Assets.xcassets in Resources */,
+				3DE2CDB11C54D8320098110C /* Pushups.png in Resources */,
+				3DE2CDB01C54D8320098110C /* Pullups.png in Resources */,
+				3D0710FF1C539DD000DA33A2 /* fontawesome-webfont.ttf in Resources */,
+				3D0710DC1C538F6900DA33A2 /* Main.storyboard in Resources */,
+				3DE2CDAC1C54D8100098110C /* skip.png in Resources */,
+				3DE2CDA51C5439F40098110C /* ResultView.xib in Resources */,
+				3D0711021C539DD000DA33A2 /* FontAwesome.otf in Resources */,
+				3D0711011C539DD000DA33A2 /* fontawesome-webfont.woff2 in Resources */,
+				3D0710FD1C539DD000DA33A2 /* fontawesome-webfont.eot in Resources */,
+				3D0711001C539DD000DA33A2 /* fontawesome-webfont.woff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72FEA75B520C009BA1459DB8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackArizona/Pods-HackArizona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F9913C5B2511CE46B945CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FD578108E13FBEEB0A334A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackArizona/Pods-HackArizona-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0710CA1C538F6900DA33A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE2CDA31C5439D70098110C /* ResultView.m in Sources */,
+				3D07110A1C539E4000DA33A2 /* NSString+FontAwesome.m in Sources */,
+				3D0711151C5424A500DA33A2 /* Excercise.m in Sources */,
+				3D0710D91C538F6900DA33A2 /* ViewController.m in Sources */,
+				3D07110B1C539E4000DA33A2 /* Reachability.m in Sources */,
+				3D0710D61C538F6900DA33A2 /* AppDelegate.m in Sources */,
+				3D0710F21C539C0600DA33A2 /* CommonUtils.m in Sources */,
+				3D0710D31C538F6900DA33A2 /* main.m in Sources */,
+				3D0710F31C539C0600DA33A2 /* NSString+baseEncoding.m in Sources */,
+				3D0710F41C539C0600DA33A2 /* UIColor+ThemeColors.m in Sources */,
+				3D07110D1C539E4000DA33A2 /* UIImage+FontAwesome.m in Sources */,
+				3D07110C1C539E4000DA33A2 /* UIFont+FontAwesome.m in Sources */,
+				3D0711111C541D5000DA33A2 /* HealthSection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D0710DA1C538F6900DA33A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0710DB1C538F6900DA33A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0710DF1C538F6900DA33A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0710E01C538F6900DA33A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0710E31C538F6900DA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D0710E41C538F6900DA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0710E61C538F6900DA33A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEE4A15B97EFF408CC3A741 /* Pods-HackArizona.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackArizona",
+				);
+				GCC_PREFIX_HEADER = HackArizona/PrefixHeader.pch;
+				INFOPLIST_FILE = HackArizona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackaz.HackArizona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D0710E71C538F6900DA33A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4767DF49A77606193043698 /* Pods-HackArizona.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackArizona",
+				);
+				GCC_PREFIX_HEADER = HackArizona/PrefixHeader.pch;
+				INFOPLIST_FILE = HackArizona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackaz.HackArizona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0710C91C538F6900DA33A2 /* Build configuration list for PBXProject "HackArizona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0710E31C538F6900DA33A2 /* Debug */,
+				3D0710E41C538F6900DA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0710E51C538F6900DA33A2 /* Build configuration list for PBXNativeTarget "HackArizona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0710E61C538F6900DA33A2 /* Debug */,
+				3D0710E71C538F6900DA33A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0710C61C538F6900DA33A2 /* Project object */;
+}
